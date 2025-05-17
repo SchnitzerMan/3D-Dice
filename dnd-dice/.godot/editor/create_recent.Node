@@ -1,0 +1,12 @@
+RigidBody3D
+Camera3D
+CollisionShape3D
+Node3D
+Button
+CanvasLayer
+DirectionalLight3D
+MeshInstance3D
+StaticBody3D
+Sprite3D
+CollisionPolygon3D
+Node
