@@ -1,3 +1,35 @@
-[gd_scene format=3 uid="uid://u4wqcfddnofx"]
+[gd_scene load_steps=5 format=3 uid="uid://u4wqcfddnofx"]
 
-[node name="Node3D" type="Node3D"]
+[ext_resource type="Script" uid="uid://ck7ct1rsjk1wy" path="res://dice_rolling_scene.gd" id="1_bdsnq"]
+[ext_resource type="ArrayMesh" uid="uid://cb15rtv0scr3a" path="res://octagon_surface.obj" id="1_mk1ec"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_om0dn"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_mk1ec"]
+
+[node name="Dice_Rolling_Scene" type="Node3D"]
+script = ExtResource("1_bdsnq")
+
+[node name="Octogon_Surface" type="StaticBody3D" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Octogon_Surface"]
+transform = Transform3D(4.6194, 0, 1.91342, 0, 3, 0, -1.91342, 0, 4.6194, 0, 0, 0)
+mesh = ExtResource("1_mk1ec")
+surface_material_override/0 = SubResource("StandardMaterial3D_om0dn")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Octogon_Surface"]
+transform = Transform3D(10, 0, 0, 0, 0.1, 0, 0, 0, 10, 0, -0.0640311, 0)
+shape = SubResource("CylinderShape3D_mk1ec")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.00420624, 0.999991, 0, -0.999991, 0.00420624, 0, 9.36701, 0)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="RollD6" type="Button" parent="CanvasLayer"]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "\"Roll Dice\""
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.868389, 0.495883, 0, -0.495883, 0.868389, 0, 3.75591, 6.77221)

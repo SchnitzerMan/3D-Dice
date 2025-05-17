@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://ctxovdfooei56"]
+
+[ext_resource type="ArrayMesh" uid="uid://bkpxuxf2sgpt1" path="res://six_sided_dice_mesh.obj" id="2_1r0ti"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_iy06d"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_oube3"]
+
+[node name="RigidBody3D" type="RigidBody3D"]
+can_sleep = false
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.6, 0, 0, 0, 0.6, 0, 0, 0, 0.6, 0, 0, 0)
+shape = SubResource("BoxShape3D_iy06d")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.6, 0, 0, 0, 0.6, 0, 0, 0, 0.6, 0, 0, 0)
+mesh = ExtResource("2_1r0ti")
+skeleton = NodePath("")
+surface_material_override/0 = SubResource("StandardMaterial3D_oube3")

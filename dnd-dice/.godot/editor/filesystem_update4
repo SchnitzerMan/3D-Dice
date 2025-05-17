@@ -1,1 +1,7 @@
 res://Dice_Rolling_Scene.tscn
+res://collision_shape_3d.gd
+res://camera_3d.gd
+res://rigid_body_3d.gd
+res://D6_Prefab.tscn
+res://dice_rolling_scene.gd
+res://d_6_prefab.gd
