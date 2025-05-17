@@ -1,4 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1747483484
-Dice_Rolling_Scene.tscn::PackedScene::1465008287083286705::1747483328::0::1::::<><><>0<>0<><>::
-icon.svg::CompressedTexture2D::7026836639660341565::1747483328::1747483485::1::::<><><>0<>0<>7dce3a3a29c1458c1209b1c20cf74e4d<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://::1747484045
+Dice_Rolling_Scene.tscn::PackedScene::1465008287083286705::1747483956::0::1::::<><><>0<>0<><>::
+icon.svg::CompressedTexture2D/CompressedTexture2D::7026836639660341565::1747483956::1747484046::1::::<><><>0<>0<>7dce3a3a29c1458c1209b1c20cf74e4d<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+Test_Script.gd::GDScript::9182609595716212740::1747483956::0::1::::<>Node<><>0<>0<><>::
