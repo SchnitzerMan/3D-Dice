@@ -1,18 +1,18 @@
 ea4bc82a6ad023ab7ee23ee620429895
-<<<<<<< HEAD
-::res://::1747486737
-Dice_Rolling_Scene.tscn::PackedScene::1465008287083286705::1747485678::0::1::::<><><>0<>0<><>::uid://d2wm4pn1jxm61::::res://octagon_surface.glb
+::res://::1747494424
+camera_3d.gd::GDScript::7159243775045417490::1747494043::0::1::::<>Camera3D<><>0<>0<><>::
+ColabTest.gd::GDScript::9110541231887451995::1747494043::0::1::::<>Node<><>0<>0<><>::
+collision_shape_3d.gd::GDScript::3047875446306358308::1747494043::0::1::::<>CollisionShape3D<><>0<>0<><>::
+D6_Prefab.tscn::PackedScene::6154797790371970235::1747494043::0::1::::<><><>0<>0<><>::uid://bkpxuxf2sgpt1::::res://six_sided_dice_mesh.obj
+dice_rolling_scene.gd::GDScript::5540946648665232076::1747494043::0::1::::<>Node3D<><>0<>0<><>::
+Dice_Rolling_Scene.tscn::PackedScene::1465008287083286705::1747494043::0::1::::<><><>0<>0<><>::uid://ck7ct1rsjk1wy::::res://dice_rolling_scene.gd<>uid://cb15rtv0scr3a::::res://octagon_surface.obj
+d_6_prefab.gd::GDScript::6488741581524157843::1747494043::0::1::::<>RefCounted<><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::7026836639660341565::1747483328::1747483485::1::::<><><>0<>0<>7dce3a3a29c1458c1209b1c20cf74e4d<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-octagon_surface.glb::PackedScene/PackedScene::9100558340958908720::1747485194::1747484980::1::::<><><>0<>0<>239bfab2864d680231fc45eecee57b60<>res://.godot/imported/octagon_surface.glb-0acee465ba865e4ee69dd10bd8204310.scn::
-octagon_surface.obj::Mesh/Mesh::4898556932453750156::1747486273::1747486273::1::::<><><>0<>0<>3452a06aa603493e23d44f541883d384<>res://.godot/imported/octagon_surface.obj-86d1434acbd19a2ac11309912907abc5.mesh<*>res://.godot/imported/octagon_surface.obj-86d1434acbd19a2ac11309912907abc5.mesh::
-octagon_surface.shape::::-1::1747484964::0::1::::<><><>0<>0<><>::
-six_sided_dice_collision.shape::::-1::1747485669::0::1::::<><><>0<>0<><>::
-six_sided_dice_mesh.glb::PackedScene/PackedScene::7513617553428609378::1747485669::1747485669::1::::<><><>0<>0<>43211e2daab4a576e0438df78bd5a53d<>res://.godot/imported/six_sided_dice_mesh.glb-252e5b72e63b7c15f5ffe45cca62c95b.scn::
-six_sided_dice_mesh.obj::Mesh/Mesh::3120708210108187852::1747485919::1747485919::1::::<><><>0<>0<>c7547ad1e0ae02e016156d47d5d4d901<>res://.godot/imported/six_sided_dice_mesh.obj-168bdfa7afff12f7f339cc3f7352a86b.mesh<*>res://.godot/imported/six_sided_dice_mesh.obj-168bdfa7afff12f7f339cc3f7352a86b.mesh::
-Test_Script.gd::GDScript/GDScript::9182609595716212740::1747483512::0::1::::<>Node<><>0<>0<><>::
-=======
-::res://::1747484045
-Dice_Rolling_Scene.tscn::PackedScene::1465008287083286705::1747483956::0::1::::<><><>0<>0<><>::
-icon.svg::CompressedTexture2D/CompressedTexture2D::7026836639660341565::1747483956::1747484046::1::::<><><>0<>0<>7dce3a3a29c1458c1209b1c20cf74e4d<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-Test_Script.gd::GDScript::9182609595716212740::1747483956::0::1::::<>Node<><>0<>0<><>::
->>>>>>> fc3ebb7469e9a899d371d03338de6e48668523b8
+octagon_surface.glb::PackedScene/PackedScene::9100558340958908720::1747494043::1747494426::1::::<><><>0<>0<>239bfab2864d680231fc45eecee57b60<>res://.godot/imported/octagon_surface.glb-0acee465ba865e4ee69dd10bd8204310.scn::
+octagon_surface.obj::Mesh/Mesh::4898556932453750156::1747494043::1747494425::1::::<><><>0<>0<>3452a06aa603493e23d44f541883d384<>res://.godot/imported/octagon_surface.obj-86d1434acbd19a2ac11309912907abc5.mesh<*>res://.godot/imported/octagon_surface.obj-86d1434acbd19a2ac11309912907abc5.mesh::
+octagon_surface.shape::::-1::1747494043::0::1::::<><><>0<>0<><>::
+rigid_body_3d.gd::GDScript::6099593715868066326::1747494043::0::1::::<>RefCounted<><>0<>0<><>::
+six_sided_dice_collision.shape::::-1::1747494043::0::1::::<><><>0<>0<><>::
+six_sided_dice_mesh.glb::PackedScene/PackedScene::7513617553428609378::1747494043::1747494426::1::::<><><>0<>0<>43211e2daab4a576e0438df78bd5a53d<>res://.godot/imported/six_sided_dice_mesh.glb-252e5b72e63b7c15f5ffe45cca62c95b.scn::
+six_sided_dice_mesh.obj::Mesh/Mesh::3120708210108187852::1747494043::1747494425::1::::<><><>0<>0<>c7547ad1e0ae02e016156d47d5d4d901<>res://.godot/imported/six_sided_dice_mesh.obj-168bdfa7afff12f7f339cc3f7352a86b.mesh<*>res://.godot/imported/six_sided_dice_mesh.obj-168bdfa7afff12f7f339cc3f7352a86b.mesh::
+Test_Script.gd::GDScript::9182609595716212740::1747483512::0::1::::<>Node<><>0<>0<><>::
