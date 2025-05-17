@@ -31,18 +31,4 @@ func _on_roll_button_pressed():
 		z_rotation
 	)
 
-	# One-time burst of random velocity (angled downward)
-	var angle = randf_range(0.0, TAU)
-	var direction = Vector3(cos(angle), 0, sin(angle)).normalized()
-	var speed = randf_range(3.0, 7.0)
-	var downward = -randf_range(4.0, 8.0)
-
-	current_dice.linear_velocity = direction * speed + Vector3(0, downward, 0)
-
-	# One-time burst of random spin
-	var torque = Vector3(
-		randf_range(-20.0, 20.0),
-		randf_range(-20.0, 20.0),
-		randf_range(-20.0, 20.0)
-	)
-	current_dice.apply_torque_impulse(torque)
+	

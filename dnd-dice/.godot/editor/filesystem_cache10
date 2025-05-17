@@ -1,4 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
+<<<<<<< HEAD
 ::res://::1747486737
 Dice_Rolling_Scene.tscn::PackedScene::1465008287083286705::1747485678::0::1::::<><><>0<>0<><>::uid://d2wm4pn1jxm61::::res://octagon_surface.glb
 icon.svg::CompressedTexture2D/CompressedTexture2D::7026836639660341565::1747483328::1747483485::1::::<><><>0<>0<>7dce3a3a29c1458c1209b1c20cf74e4d<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
@@ -9,3 +10,9 @@ six_sided_dice_collision.shape::::-1::1747485669::0::1::::<><><>0<>0<><>::
 six_sided_dice_mesh.glb::PackedScene/PackedScene::7513617553428609378::1747485669::1747485669::1::::<><><>0<>0<>43211e2daab4a576e0438df78bd5a53d<>res://.godot/imported/six_sided_dice_mesh.glb-252e5b72e63b7c15f5ffe45cca62c95b.scn::
 six_sided_dice_mesh.obj::Mesh/Mesh::3120708210108187852::1747485919::1747485919::1::::<><><>0<>0<>c7547ad1e0ae02e016156d47d5d4d901<>res://.godot/imported/six_sided_dice_mesh.obj-168bdfa7afff12f7f339cc3f7352a86b.mesh<*>res://.godot/imported/six_sided_dice_mesh.obj-168bdfa7afff12f7f339cc3f7352a86b.mesh::
 Test_Script.gd::GDScript/GDScript::9182609595716212740::1747483512::0::1::::<>Node<><>0<>0<><>::
+=======
+::res://::1747484045
+Dice_Rolling_Scene.tscn::PackedScene::1465008287083286705::1747483956::0::1::::<><><>0<>0<><>::
+icon.svg::CompressedTexture2D/CompressedTexture2D::7026836639660341565::1747483956::1747484046::1::::<><><>0<>0<>7dce3a3a29c1458c1209b1c20cf74e4d<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+Test_Script.gd::GDScript::9182609595716212740::1747483956::0::1::::<>Node<><>0<>0<><>::
+>>>>>>> fc3ebb7469e9a899d371d03338de6e48668523b8
